@@ -1,0 +1,159 @@
+ 
+body{
+    /*permet de ne pas avoir une bordure autour du header ( remets tout à zéro*/
+    margin: 0;
+    padding: 0;
+}
+
+
+ /*HEADER*/
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-top: -15px;
+
+
+}
+.vide {
+    padding-top: 5em;
+}
+
+.logo { 
+    width: 15%;
+    margin-top: 10px;
+}
+
+.nav {
+    margin-left: 30%;
+    margin-top: 35px;
+}
+.navhead {
+    text-decoration-line: none;
+    color: white;
+    padding: 15px;
+    position: relative;
+    text-decoration: none;
+    
+}
+
+   
+  a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(152, 0, 0);
+    transition: width 500ms ease;
+  }
+   
+  a:hover:after {
+    width: 100%;
+  }
+
+
+#bouton {
+   
+    background-color: rgb(120, 1, 1);
+}
+ /*FIN HEADER*/
+
+/*Contenue qui sommes nous?*/
+
+.titre{
+    color: white;
+    text-align: center;
+    background-color: black;
+    opacity: 80%;
+    padding: 10px;
+}
+
+.s{
+ 
+    backdrop-filter: blur(20px);
+}
+
+
+img {
+    margin: 10px;
+    
+
+}
+.photo {
+    width: 31%;
+    margin-left: 100px;
+}
+.photo1 {
+    width: 23%;
+}
+section {
+    margin: 150px;
+    padding: 20px;
+   
+}
+
+
+
+#background-video {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    margin-top: 40px;
+    
+    }
+
+body{
+    color: white;
+    
+    font-family: 'Josefin Sans', sans-serif;
+   font-size: 16px;
+   
+}
+
+
+/*FOOTER*/
+footer{
+    background: linear-gradient(rgb(120, 1, 1),black);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.logofooter{
+    margin-left: 10px;
+   width:20%;
+   height: 20%;
+   margin-top: 5%;
+   
+}
+#navfooter {
+    margin-left: 30%;
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+}
+.navfooter {
+    text-decoration-line: none;
+    color: white;
+    padding: 15px;
+    position: relative;
+    text-decoration: none;
+    
+}
+
+ /* FIN FOOTER*/
+

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:"Nunito Sans";
+  color: var(--blue);
+  font-size: 1em;
+  background-color: darkred;
+  color: white;
+  
+}
+button {
+  font-family:"Nunito Sans";
+}
+ul {
+  list-style-type: none;
+  padding-inline-start: 35px;
+}
+
+
+h1 {
+  font-size: 7.5em;
+  margin: 15px 0px;
+  font-weight:bold;
+}
+h2 {
+  font-weight:bold;
+}
+
+nav {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--green);
+  color: var(--blue);
+  width: 300px;
+  z-index: 1;
+  padding-top: 80px;
+  transform: translateX(-100%);
+  transition: 0.24s cubic-bezier(.52,.01,.8,1);
+  & li {
+    transform: translateX(-5px);
+    transition: 0.16s cubic-bezier(0.44, 0.09, 0.46, 0.84);
+    opacity: 0;
+  }
+
+}
+.btn {
+  z-index: 1;
+  overflow: hidden;
+  background: transparent;
+  position: relative;
+  padding: 8px 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1em;
+  letter-spacing: 2px;
+  transition: 0.2s ease;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+@media screen and (max-width:768px) {
+  body {
+    display:block;
+  }
+  .container {
+    margin-top:70px;
+    margin-bottom:70px;
+  }
+} 
+.btn.accueil {
+  background: linear-gradient(to right, #420b01, #0e0620);
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn.accueil:hover {
+  background: linear-gradient(to right, #0e0620, #420b01);
+  color: #fff;
+}

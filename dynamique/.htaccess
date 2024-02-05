@@ -1,0 +1,16 @@
+AddDefaultCharset utf-8
+
+#empâche de lister les dossiers et les fichiers
+
+Options All -Indexes
+
+
+
+#gérer l'erreur 404 : page non trouvée
+ErrorDocument 404 https://webetu.iutnc.univ-lorraine.fr/~e8218u/SAE105_Aknowhere/dynamique/404.html 
+
+
+#gérer l'erreur 403 : Forbidden 
+ErrorDocument 403 https://webetu.iutnc.univ-lorraine.fr/~e8218u/SAE105_Aknowhere/dynamique/403.html 
+
+

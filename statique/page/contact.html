@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aknowhere</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="JS/accueil.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500&family=Jura:wght@300&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500&family=Jura:wght@300&family=Kalam:wght@400;700&family=Playpen+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../medias/falvicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../medias/falvicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../medias/falvicon.png">
+    <link rel="manifest" href="../medias/falvicon.png">
+    <link rel="mask-icon" href="../medias/falvicon.png" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="../medias/logo.png" alt="logo">
+        <nav>
+              <a href="../index.html" class="navhead">Accueil</a>
+                <a href="./univer.html" class="navhead">Univers</a>
+                <a href="./boutique.html" class="navhead">Boutique</a>
+                <a href="./quisommesnous.html" class="navhead">Qui sommes-nous?</a>
+                <a href="./contact.html" class="navhead">Nous contactez</a>
+                <a href="./connecter.html" id="bouton" class="navhead" >Se connecter</a>
+        </nav>
+    </div>    
+        <form>
+            <h1 class="couleur1">FORMULAIRE DE CONTACT</h1> 
+            <table>
+            <tr><td class="couleur1"><label for="nom"> Nom </label></td><td class="couleur2"><input type="text" name="nom" id="nom" size="45"></td></tr>
+            <tr><td class="couleur1"><label for="prenom"> Prénom </label></td><td class="couleur2"><input type="text" name="prenom" id="prenom" size="45"></td></tr>
+            </table>
+            <table>
+            <tr><td class="couleur1"><label for="adressemail"> E-Mail </label></td><td class="couleur2"><input type="text" name="adressemail" id="adressemail" size="45"></td></tr>
+            <tr><td class="couleur1"><label for="adresse"> Adresse </label></td><td class="couleur2"><input type="text" name="adresse" id="adresse" size="45"></td></tr>
+            <tr><td class="couleur1"><label for="codepostal"> Code Postal</label></td><td class="couleur2"><input type="text" name="codepostal" id="codepostal" size="10"></td></tr>
+            </table>
+            <table>
+            <tr><td class="couleur1"><label for="tel">N° Téléphone </label></td><td class="couleur2"><input type="text" name="tel" id="tel" size="10"></td></tr><tr><td class="couleur1">Né(e) le : </td><td class="couleur2"><select name="date">
+                <optgroup label="jours">
+                <option value="j1">1</option>
+                <option value="j2">2</option>
+                <option value="j3">3</option>
+                <option value="j4">4</option>
+                <option value="j5">5</option>
+                <option value="j6">6</option>
+                <option value="j7">7</option>
+                <option value="j8">8</option>
+                <option value="j9">9</option>
+                <option value="j10">10</option>
+                <option value="j11">11</option>
+                <option value="j12">12</option>
+                <option value="j13">13</option>
+                <option value="j14">14</option>
+                <option value="j15">15</option>
+                <option value="j16">16</option>
+                <option value="j17">17</option>
+                <option value="j18">18</option>
+                <option value="j19">19</option>
+                <option value="j20">20</option>
+                <option value="j21">21</option>
+                <option value="j22">22</option>
+                <option value="j23">23</option>
+                <option value="j24">24</option>
+                <option value="j25">25</option>
+                <option value="j26">26</option>
+                <option value="j27">27</option>
+                <option value="j28">28</option>
+                <option value="j29">29</option>
+                <option value="j30">30</option>
+                <option value="j31">31</option>
+                </optgroup>
+                </select>
+                /
+                <select name="mois">
+                <optgroup label="mois">
+                <option value="janvier">janvier</option>
+                <option value="fevrier">février</option>
+                <option value="mars">mars</option>
+                <option value="avril">avril</option>
+                <option value="mai">mai</option>
+                <option value="juin">juin</option>
+                <option value="juillet">juillet</option>
+                <option value="aout">août</option>
+                <option value="septempbre">septembre</option>
+                <option value="octobre">octobre</option>
+                <option value="novembre">novembre</option>
+                <option value="décembre">décembre</option>
+                </optgroup>
+                </select>
+                /
+                <input type="text" name="annee" id="annee" size="1"></td></tr>
+            </table>
+            
+            <p class="couleur1">Votre message :</p>
+            <textarea>
+                Écrivez avec respect, notre équipe lit tous les messages
+            </textarea><br>
+            <input type="submit" value="envoyer">
+            </form>
+    <footer id="footer">
+
+        <img class="logofooter" src="../medias/logo.png" alt="logo">
+
+        <nav id="navfooter">
+            <a href="../index.html" class="navhead">Accueil</a>
+            <a href="./univer.html" class="navhead">Univers</a>
+            <a href="./boutique.html" class="navhead">Boutique</a>
+            <a href="./quisommesnous.html" class="navhead">Qui sommes-nous?</a>
+            <a href="./contact.html" class="navhead">Nous contactez</a>
+            <a href="./connecter.html"  class="navhead" >Se connecter</a>
+        </nav>
+    </footer>
+</body>
+</html>
